@@ -1,0 +1,60 @@
+{
+  "landing": "luqman",
+  "name": "Luqman",
+  "landing_url": null,
+  "thanks_url": null,
+  "accent_color": "#2563eb",
+  "variables": [
+    {
+      "key": "headline",
+      "name": "Titular del hero",
+      "kind": "headline",
+      "description": "El titular grande de arriba. Suele ser la variable con más impacto.",
+      "original": { "before": "[Pendiente] Titular principal con una ", "highlight": "parte resaltada", "after": "" }
+    },
+    {
+      "key": "hero_lead",
+      "name": "Texto debajo del titular",
+      "kind": "text",
+      "description": "El párrafo que explica la oferta debajo del titular.",
+      "original": { "text": "[Pendiente] Una o dos frases que expliquen qué ofrece Luqman, a quién y qué resultado obtiene." }
+    },
+    {
+      "key": "hero_image",
+      "name": "Imagen del hero",
+      "kind": "image",
+      "description": "La imagen debajo del titular.",
+      "original": { "src": "", "alt": "" }
+    },
+    {
+      "key": "cta_text",
+      "name": "Texto de los botones",
+      "kind": "cta",
+      "description": "El texto de todos los botones de agendar (y su subtítulo).",
+      "original": { "label": "[Pendiente] Agendar ahora", "sub": "[Pendiente] Subtítulo del botón" }
+    },
+    {
+      "key": "button_color",
+      "name": "Color de los botones",
+      "kind": "color",
+      "description": "El color de los botones de agendar. Su efecto suele ser chico y tarda en medirse.",
+      "original": { "color": "#2563eb", "hover": "#1d4ed8" }
+    },
+    {
+      "key": "section_order",
+      "name": "Orden de las secciones",
+      "kind": "order",
+      "description": "En qué orden aparecen las secciones debajo del hero.",
+      "config": {
+        "sections": [
+          { "key": "benefits", "label": "Beneficios" },
+          { "key": "process", "label": "Cómo funciona" },
+          { "key": "testimonials", "label": "Testimonios" },
+          { "key": "faq", "label": "Preguntas frecuentes" },
+          { "key": "ctaBand", "label": "Llamado final" }
+        ]
+      },
+      "original": { "order": ["benefits", "process", "testimonials", "faq", "ctaBand"] }
+    }
+  ]
+}
